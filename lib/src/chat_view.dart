@@ -490,13 +490,13 @@ class DashChatState extends State<DashChat> {
                                 0,
                                 widget.messages[widget.messages.length - 1]
                                             .quickReplies.values.length <=
-                                        3
+                                        5
                                     ? widget
                                         .messages[widget.messages.length - 1]
                                         .quickReplies
                                         .values
                                         .length
-                                    : 3)
+                                    : 5)
                             .map(
                               (reply) => QuickReply(
                                 reply: reply,
